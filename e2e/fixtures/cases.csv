@@ -1,0 +1,13 @@
+MSL test cases (export for e2e),,,,
+ID,Test case,Steps,Expected result,Automated
+1. Authentication,,,,
+AUTH-001,Valid credentials log in and open the dashboard,"1. Open /#/login
+2. Enter the QA account
+3. Press Log in",Dashboard opens,Yes
+AUTH-004,Wrong password shows the generic error,Enter a wrong password,"Toast ""Oops!! Wrong password""",Yes
+RESET-006,A new password works after reset,,You can sign in with the new password,Yes
+ON-04,Onboarding opens after the first sign-in,,Step 1 of 10 dialog,Yes
+10. Web-only additions,,,,
+WEB-09,Card payment completes,Pay with a test card,Plan becomes MSL+,No
+WEB-10,Production hosts are refused,,The run stops before a test starts,Yes
+WEB-11,Dark mode toggle opens the upsell,,Upsell dialog,No

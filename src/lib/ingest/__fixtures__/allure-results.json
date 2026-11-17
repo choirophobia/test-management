@@ -1,0 +1,1640 @@
+[
+ {
+  "uuid": "03589af3-2ab9-47be-b4cd-0bc7974289d2",
+  "name": "RESET-006 / ON-04 a new password works and onboarding opens",
+  "historyId": "3e5e6dfbd2f744798f43f194e67c0143:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+   "message": "Error: page.goto: net::ERR_CONNECTION_RESET",
+   "trace": "Error: page.goto: net::ERR_CONNECTION_RESET\n    at /home/claude/fixture-gen/tests/auth/login.spec.ts:22:35"
+  },
+  "stage": "finished",
+  "steps": [
+   {
+    "statusDetails": {},
+    "stage": "finished",
+    "steps": [],
+    "attachments": [
+     {
+      "name": "error-context",
+      "source": "ac60861f-8c9b-4860-b28d-92dabf52fe1a-attachment.md",
+      "type": "text/markdown"
+     }
+    ],
+    "parameters": [],
+    "start": 1794904074085,
+    "name": "error-context",
+    "stop": 1794904074085
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "firefox"
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "4b2255debb09c9013c18b653ee5537ef"
+   },
+   {
+    "name": "titlePath",
+    "value": " > firefox > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "RESET-006"
+   },
+   {
+    "name": "tag",
+    "value": "ON-04"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "firefox"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904074016,
+  "testCaseId": "3e5e6dfbd2f744798f43f194e67c0143",
+  "fullName": "auth/login.spec.ts › RESET-006 / ON-04 a new password works and onboarding opens",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904074042
+ },
+ {
+  "uuid": "068d3798-fc01-4348-bede-cdc967016888",
+  "name": "AUTH-004 wrong password shows the generic error",
+  "historyId": "a4ba2f1404bfb1d85e72eee853f6f635:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+   "message": "Error: error toast text\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: \"Oops!! Wrong password\"\nReceived: \"Oops!! Invalid credentials\"",
+   "trace": "Error: error toast text\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: \"Oops!! Wrong password\"\nReceived: \"Oops!! Invalid credentials\"\n    at /home/claude/fixture-gen/tests/auth/login.spec.ts:17:60"
+  },
+  "stage": "finished",
+  "steps": [
+   {
+    "statusDetails": {},
+    "stage": "finished",
+    "steps": [],
+    "attachments": [
+     {
+      "name": "error-context",
+      "source": "74bc98f1-20a0-48eb-a968-adce85c0a4c1-attachment.md",
+      "type": "text/markdown"
+     }
+    ],
+    "parameters": [],
+    "start": 1794904073392,
+    "name": "error-context",
+    "stop": 1794904073392
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "firefox"
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "165d3df37232d0a04be647eb921e90dc"
+   },
+   {
+    "name": "titlePath",
+    "value": " > firefox > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "AUTH-004"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "firefox"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904073374,
+  "testCaseId": "a4ba2f1404bfb1d85e72eee853f6f635",
+  "fullName": "auth/login.spec.ts › AUTH-004 wrong password shows the generic error",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904073380
+ },
+ {
+  "uuid": "18c79662-2291-422e-bff5-5e5657c875e2",
+  "name": "RESET-006 / ON-04 a new password works and onboarding opens",
+  "historyId": "3e5e6dfbd2f744798f43f194e67c0143:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "firefox"
+   },
+   {
+    "name": "Retry",
+    "value": "1",
+    "excluded": true
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "4b2255debb09c9013c18b653ee5537ef"
+   },
+   {
+    "name": "titlePath",
+    "value": " > firefox > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "RESET-006"
+   },
+   {
+    "name": "tag",
+    "value": "ON-04"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "firefox"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904074356,
+  "testCaseId": "3e5e6dfbd2f744798f43f194e67c0143",
+  "fullName": "auth/login.spec.ts › RESET-006 / ON-04 a new password works and onboarding opens",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904074377
+ },
+ {
+  "uuid": "291398b8-6e3d-4aba-8f81-c4609cac77df",
+  "name": "WEB-10 setup throws before the assertion",
+  "historyId": "7f7a5407e65316813ac59cffe216574d:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+   "message": "Error: ENOENT: no such file or directory, open '/does/not/exist.json'",
+   "trace": "Error: ENOENT: no such file or directory, open '/does/not/exist.json'\n    at /home/claude/fixture-gen/tests/auth/login.spec.ts:35:6"
+  },
+  "stage": "finished",
+  "steps": [
+   {
+    "statusDetails": {},
+    "stage": "finished",
+    "steps": [],
+    "attachments": [
+     {
+      "name": "error-context",
+      "source": "2c50ccef-f8a2-49ef-9f81-ba90f21fac84-attachment.md",
+      "type": "text/markdown"
+     }
+    ],
+    "parameters": [],
+    "start": 1794904074802,
+    "name": "error-context",
+    "stop": 1794904074802
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "firefox"
+   },
+   {
+    "name": "Retry",
+    "value": "1",
+    "excluded": true
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "c3cd3a048ae449738d6cd4780431ed86"
+   },
+   {
+    "name": "titlePath",
+    "value": " > firefox > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "WEB-10"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "firefox"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904074732,
+  "testCaseId": "7f7a5407e65316813ac59cffe216574d",
+  "fullName": "auth/login.spec.ts › WEB-10 setup throws before the assertion",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904074757
+ },
+ {
+  "uuid": "2f8c819a-c1a1-4038-84b1-af7276603a33",
+  "name": "AUTH-004 wrong password shows the generic error",
+  "historyId": "a4ba2f1404bfb1d85e72eee853f6f635:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+   "message": "Error: error toast text\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: \"Oops!! Wrong password\"\nReceived: \"Oops!! Invalid credentials\"",
+   "trace": "Error: error toast text\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: \"Oops!! Wrong password\"\nReceived: \"Oops!! Invalid credentials\"\n    at /home/claude/fixture-gen/tests/auth/login.spec.ts:17:60"
+  },
+  "stage": "finished",
+  "steps": [
+   {
+    "statusDetails": {},
+    "stage": "finished",
+    "steps": [],
+    "attachments": [
+     {
+      "name": "error-context",
+      "source": "375da512-3128-457f-8d19-f7e356f55ad5-attachment.md",
+      "type": "text/markdown"
+     }
+    ],
+    "parameters": [],
+    "start": 1794904071569,
+    "name": "error-context",
+    "stop": 1794904071569
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "chromium"
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "165d3df37232d0a04be647eb921e90dc"
+   },
+   {
+    "name": "titlePath",
+    "value": " > chromium > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "AUTH-004"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "chromium"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904071551,
+  "testCaseId": "a4ba2f1404bfb1d85e72eee853f6f635",
+  "fullName": "auth/login.spec.ts › AUTH-004 wrong password shows the generic error",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904071558
+ },
+ {
+  "uuid": "30011ba9-1315-4995-b6cf-a0188055992a",
+  "name": "[known bug] AUTH-007 email with a trailing dot is accepted",
+  "historyId": "4fab13527ea271493cceca66e62d7b09:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+   {
+    "name": "known-bug: Expected: \"Invalid email\" error",
+    "status": "passed",
+    "stage": "finished",
+    "parameters": [],
+    "steps": [],
+    "attachments": [],
+    "statusDetails": {}
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "firefox"
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "7cd294d6d73e8bfc0d5daa4f425dfefc"
+   },
+   {
+    "name": "titlePath",
+    "value": " > firefox > auth/login.spec.ts"
+   },
+   {
+    "name": "tag",
+    "value": "known-bug"
+   },
+   {
+    "name": "tag",
+    "value": "AUTH-007"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "firefox"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904074410,
+  "testCaseId": "4fab13527ea271493cceca66e62d7b09",
+  "fullName": "auth/login.spec.ts › [known bug] AUTH-007 email with a trailing dot is accepted",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904074416
+ },
+ {
+  "uuid": "3cd6b4eb-fd74-4c0b-9397-f20d74c5a51c",
+  "name": "AUTH-001 valid credentials log in and open the dashboard",
+  "historyId": "838ffb7f35c8183581d82dc019285f42:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "firefox"
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "55759a88671eab342174ebaec8b00317"
+   },
+   {
+    "name": "titlePath",
+    "value": " > firefox > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "AUTH-001"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "firefox"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904073312,
+  "testCaseId": "838ffb7f35c8183581d82dc019285f42",
+  "fullName": "auth/login.spec.ts › AUTH-001 valid credentials log in and open the dashboard",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904073336
+ },
+ {
+  "uuid": "569b4693-7b5b-411d-979c-f64eaac891e1",
+  "name": "AUTH-004 wrong password shows the generic error",
+  "historyId": "a4ba2f1404bfb1d85e72eee853f6f635:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+   "message": "Error: error toast text\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: \"Oops!! Wrong password\"\nReceived: \"Oops!! Invalid credentials\"",
+   "trace": "Error: error toast text\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: \"Oops!! Wrong password\"\nReceived: \"Oops!! Invalid credentials\"\n    at /home/claude/fixture-gen/tests/auth/login.spec.ts:17:60"
+  },
+  "stage": "finished",
+  "steps": [
+   {
+    "statusDetails": {},
+    "stage": "finished",
+    "steps": [],
+    "attachments": [
+     {
+      "name": "error-context",
+      "source": "87542ace-bd0f-4532-95e7-b70208e233a7-attachment.md",
+      "type": "text/markdown"
+     }
+    ],
+    "parameters": [],
+    "start": 1794904071942,
+    "name": "error-context",
+    "stop": 1794904071942
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "chromium"
+   },
+   {
+    "name": "Retry",
+    "value": "1",
+    "excluded": true
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "165d3df37232d0a04be647eb921e90dc"
+   },
+   {
+    "name": "titlePath",
+    "value": " > chromium > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "AUTH-004"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "chromium"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904071844,
+  "testCaseId": "a4ba2f1404bfb1d85e72eee853f6f635",
+  "fullName": "auth/login.spec.ts › AUTH-004 wrong password shows the generic error",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904071894
+ },
+ {
+  "uuid": "65bce4f7-067a-4e51-899b-9004544cf8a8",
+  "name": "[known bug] AUTH-007 email with a trailing dot is accepted",
+  "historyId": "4fab13527ea271493cceca66e62d7b09:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+   {
+    "name": "known-bug: Expected: \"Invalid email\" error",
+    "status": "passed",
+    "stage": "finished",
+    "parameters": [],
+    "steps": [],
+    "attachments": [],
+    "statusDetails": {}
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "chromium"
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "7cd294d6d73e8bfc0d5daa4f425dfefc"
+   },
+   {
+    "name": "titlePath",
+    "value": " > chromium > auth/login.spec.ts"
+   },
+   {
+    "name": "tag",
+    "value": "known-bug"
+   },
+   {
+    "name": "tag",
+    "value": "AUTH-007"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "chromium"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904072649,
+  "testCaseId": "4fab13527ea271493cceca66e62d7b09",
+  "fullName": "auth/login.spec.ts › [known bug] AUTH-007 email with a trailing dot is accepted",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904072655
+ },
+ {
+  "uuid": "87f157c5-6a06-4004-98dc-c7149307d54c",
+  "name": "WEB-09 card payment completes",
+  "historyId": "61fb222615df7c98a98b4ee25da0dcdc:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "skipped",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+   {
+    "name": "manual: Stripe Checkout shows hCaptcha to automated browsers",
+    "status": "passed",
+    "stage": "finished",
+    "parameters": [],
+    "steps": [],
+    "attachments": [],
+    "statusDetails": {}
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "firefox"
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "c4c74d3a9994064794f61c1829bcf313"
+   },
+   {
+    "name": "titlePath",
+    "value": " > firefox > auth/login.spec.ts"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "firefox"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904074429,
+  "testCaseId": "61fb222615df7c98a98b4ee25da0dcdc",
+  "fullName": "auth/login.spec.ts › WEB-09 card payment completes",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904074432
+ },
+ {
+  "uuid": "8a80e3a2-6215-4e13-8a36-3e9235ec2c0e",
+  "name": "WEB-10 setup throws before the assertion",
+  "historyId": "7f7a5407e65316813ac59cffe216574d:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+   "message": "Error: ENOENT: no such file or directory, open '/does/not/exist.json'",
+   "trace": "Error: ENOENT: no such file or directory, open '/does/not/exist.json'\n    at /home/claude/fixture-gen/tests/auth/login.spec.ts:35:6"
+  },
+  "stage": "finished",
+  "steps": [
+   {
+    "statusDetails": {},
+    "stage": "finished",
+    "steps": [],
+    "attachments": [
+     {
+      "name": "error-context",
+      "source": "d0b6c5cb-9909-4a4d-8667-4a911a947eb2-attachment.md",
+      "type": "text/markdown"
+     }
+    ],
+    "parameters": [],
+    "start": 1794904073035,
+    "name": "error-context",
+    "stop": 1794904073035
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "chromium"
+   },
+   {
+    "name": "Retry",
+    "value": "1",
+    "excluded": true
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "c3cd3a048ae449738d6cd4780431ed86"
+   },
+   {
+    "name": "titlePath",
+    "value": " > chromium > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "WEB-10"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "chromium"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904072968,
+  "testCaseId": "7f7a5407e65316813ac59cffe216574d",
+  "fullName": "auth/login.spec.ts › WEB-10 setup throws before the assertion",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904072996
+ },
+ {
+  "uuid": "96a25452-153c-40ff-997f-4d3b66487dff",
+  "name": "WEB-09 card payment completes",
+  "historyId": "61fb222615df7c98a98b4ee25da0dcdc:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "skipped",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+   {
+    "name": "manual: Stripe Checkout shows hCaptcha to automated browsers",
+    "status": "passed",
+    "stage": "finished",
+    "parameters": [],
+    "steps": [],
+    "attachments": [],
+    "statusDetails": {}
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "chromium"
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "c4c74d3a9994064794f61c1829bcf313"
+   },
+   {
+    "name": "titlePath",
+    "value": " > chromium > auth/login.spec.ts"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "chromium"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904072669,
+  "testCaseId": "61fb222615df7c98a98b4ee25da0dcdc",
+  "fullName": "auth/login.spec.ts › WEB-09 card payment completes",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904072673
+ },
+ {
+  "uuid": "a7ec808a-5df0-4329-95ae-ec239492b759",
+  "name": "WEB-10 setup throws before the assertion",
+  "historyId": "7f7a5407e65316813ac59cffe216574d:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+   "message": "Error: ENOENT: no such file or directory, open '/does/not/exist.json'",
+   "trace": "Error: ENOENT: no such file or directory, open '/does/not/exist.json'\n    at /home/claude/fixture-gen/tests/auth/login.spec.ts:35:6"
+  },
+  "stage": "finished",
+  "steps": [
+   {
+    "statusDetails": {},
+    "stage": "finished",
+    "steps": [],
+    "attachments": [
+     {
+      "name": "error-context",
+      "source": "12aa17d7-2fdf-4a53-ae45-1963c6ddc3c8-attachment.md",
+      "type": "text/markdown"
+     }
+    ],
+    "parameters": [],
+    "start": 1794904072692,
+    "name": "error-context",
+    "stop": 1794904072692
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "chromium"
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "c3cd3a048ae449738d6cd4780431ed86"
+   },
+   {
+    "name": "titlePath",
+    "value": " > chromium > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "WEB-10"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "chromium"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904072673,
+  "testCaseId": "7f7a5407e65316813ac59cffe216574d",
+  "fullName": "auth/login.spec.ts › WEB-10 setup throws before the assertion",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904072678
+ },
+ {
+  "uuid": "b7bf7b09-7ce2-4a55-8ace-c80e8961f358",
+  "name": "AUTH-004 wrong password shows the generic error",
+  "historyId": "a4ba2f1404bfb1d85e72eee853f6f635:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+   "message": "Error: error toast text\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: \"Oops!! Wrong password\"\nReceived: \"Oops!! Invalid credentials\"",
+   "trace": "Error: error toast text\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: \"Oops!! Wrong password\"\nReceived: \"Oops!! Invalid credentials\"\n    at /home/claude/fixture-gen/tests/auth/login.spec.ts:17:60"
+  },
+  "stage": "finished",
+  "steps": [
+   {
+    "statusDetails": {},
+    "stage": "finished",
+    "steps": [],
+    "attachments": [
+     {
+      "name": "error-context",
+      "source": "835a0631-7fe6-4c6f-a2a1-4e8ff061fb83-attachment.md",
+      "type": "text/markdown"
+     }
+    ],
+    "parameters": [],
+    "start": 1794904073733,
+    "name": "error-context",
+    "stop": 1794904073733
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "firefox"
+   },
+   {
+    "name": "Retry",
+    "value": "1",
+    "excluded": true
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "165d3df37232d0a04be647eb921e90dc"
+   },
+   {
+    "name": "titlePath",
+    "value": " > firefox > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "AUTH-004"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "firefox"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904073669,
+  "testCaseId": "a4ba2f1404bfb1d85e72eee853f6f635",
+  "fullName": "auth/login.spec.ts › AUTH-004 wrong password shows the generic error",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904073696
+ },
+ {
+  "uuid": "d6638888-156d-46e2-8200-45a269413fcc",
+  "name": "WEB-10 setup throws before the assertion",
+  "historyId": "7f7a5407e65316813ac59cffe216574d:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+   "message": "Error: ENOENT: no such file or directory, open '/does/not/exist.json'",
+   "trace": "Error: ENOENT: no such file or directory, open '/does/not/exist.json'\n    at /home/claude/fixture-gen/tests/auth/login.spec.ts:35:6"
+  },
+  "stage": "finished",
+  "steps": [
+   {
+    "statusDetails": {},
+    "stage": "finished",
+    "steps": [],
+    "attachments": [
+     {
+      "name": "error-context",
+      "source": "75358dcd-d9e0-4dda-bd37-8df1f5a8036f-attachment.md",
+      "type": "text/markdown"
+     }
+    ],
+    "parameters": [],
+    "start": 1794904074453,
+    "name": "error-context",
+    "stop": 1794904074453
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "firefox"
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "c3cd3a048ae449738d6cd4780431ed86"
+   },
+   {
+    "name": "titlePath",
+    "value": " > firefox > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "WEB-10"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "firefox"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904074432,
+  "testCaseId": "7f7a5407e65316813ac59cffe216574d",
+  "fullName": "auth/login.spec.ts › WEB-10 setup throws before the assertion",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904074436
+ },
+ {
+  "uuid": "d6b7f63f-e6f6-46c1-b300-16ce57560c40",
+  "name": "RESET-006 / ON-04 a new password works and onboarding opens",
+  "historyId": "3e5e6dfbd2f744798f43f194e67c0143:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+   "message": "Error: page.goto: net::ERR_CONNECTION_RESET",
+   "trace": "Error: page.goto: net::ERR_CONNECTION_RESET\n    at /home/claude/fixture-gen/tests/auth/login.spec.ts:22:35"
+  },
+  "stage": "finished",
+  "steps": [
+   {
+    "statusDetails": {},
+    "stage": "finished",
+    "steps": [],
+    "attachments": [
+     {
+      "name": "error-context",
+      "source": "f0e90692-4a8e-4ee0-8a45-8e2304ffb954-attachment.md",
+      "type": "text/markdown"
+     }
+    ],
+    "parameters": [],
+    "start": 1794904072290,
+    "name": "error-context",
+    "stop": 1794904072290
+   }
+  ],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "chromium"
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "4b2255debb09c9013c18b653ee5537ef"
+   },
+   {
+    "name": "titlePath",
+    "value": " > chromium > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "RESET-006"
+   },
+   {
+    "name": "tag",
+    "value": "ON-04"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "chromium"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904072222,
+  "testCaseId": "3e5e6dfbd2f744798f43f194e67c0143",
+  "fullName": "auth/login.spec.ts › RESET-006 / ON-04 a new password works and onboarding opens",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904072247
+ },
+ {
+  "uuid": "dbb1e7af-4737-4d4e-b906-2faa7efe449b",
+  "name": "RESET-006 / ON-04 a new password works and onboarding opens",
+  "historyId": "3e5e6dfbd2f744798f43f194e67c0143:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "chromium"
+   },
+   {
+    "name": "Retry",
+    "value": "1",
+    "excluded": true
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "4b2255debb09c9013c18b653ee5537ef"
+   },
+   {
+    "name": "titlePath",
+    "value": " > chromium > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "RESET-006"
+   },
+   {
+    "name": "tag",
+    "value": "ON-04"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "chromium"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904072558,
+  "testCaseId": "3e5e6dfbd2f744798f43f194e67c0143",
+  "fullName": "auth/login.spec.ts › RESET-006 / ON-04 a new password works and onboarding opens",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904072586
+ },
+ {
+  "uuid": "ed9c3284-c8d7-4382-87a7-fa349bec6819",
+  "name": "AUTH-001 valid credentials log in and open the dashboard",
+  "historyId": "838ffb7f35c8183581d82dc019285f42:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+   {
+    "name": "Project",
+    "value": "chromium"
+   }
+  ],
+  "labels": [
+   {
+    "name": "language",
+    "value": "javascript"
+   },
+   {
+    "name": "framework",
+    "value": "playwright"
+   },
+   {
+    "name": "package",
+    "value": "fixture-gen.auth.login.spec.ts"
+   },
+   {
+    "name": "_fallbackTestCaseId",
+    "value": "55759a88671eab342174ebaec8b00317"
+   },
+   {
+    "name": "titlePath",
+    "value": " > chromium > auth/login.spec.ts"
+   },
+   {
+    "name": "epic",
+    "value": "Authentication"
+   },
+   {
+    "name": "feature",
+    "value": "Login"
+   },
+   {
+    "name": "tag",
+    "value": "AUTH-001"
+   },
+   {
+    "name": "host",
+    "value": "vm"
+   },
+   {
+    "name": "thread",
+    "value": "pid-676-worker-0"
+   },
+   {
+    "name": "parentSuite",
+    "value": "chromium"
+   },
+   {
+    "name": "suite",
+    "value": "auth/login.spec.ts"
+   }
+  ],
+  "links": [],
+  "start": 1794904071486,
+  "testCaseId": "838ffb7f35c8183581d82dc019285f42",
+  "fullName": "auth/login.spec.ts › AUTH-001 valid credentials log in and open the dashboard",
+  "titlePath": [
+   "fixture-gen",
+   "auth",
+   "login.spec.ts"
+  ],
+  "stop": 1794904071510
+ }
+]

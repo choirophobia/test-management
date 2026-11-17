@@ -1,0 +1,236 @@
+<testsuites id="" name="" tests="12" failures="2" skipped="2" errors="2" time="3.657455">
+<testsuite name="auth/login.spec.ts" timestamp="2026-11-17T08:27:51.194Z" hostname="chromium" tests="6" failures="1" skipped="1" time="0.173" errors="1">
+<testcase name="AUTH-001 valid credentials log in and open the dashboard" classname="auth/login.spec.ts" time="0.024">
+</testcase>
+<testcase name="AUTH-004 wrong password shows the generic error" classname="auth/login.spec.ts" time="0.057">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/auth-login-AUTH-004-wrong-password-shows-the-generic-error-chromium/error-context.md]]
+
+[[ATTACHMENT|test-results/auth-login-AUTH-004-wrong-password-shows-the-generic-error-chromium-retry1/error-context.md]]
+]]>
+</system-out>
+<failure message="error toast text" type="expect.toBe">
+<![CDATA[  [chromium] › auth/login.spec.ts:16:1 › AUTH-004 wrong password shows the generic error ───────────
+
+    Error: error toast text
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Oops!! Wrong password"
+    Received: "Oops!! Invalid credentials"
+
+      15 |
+      16 | test('AUTH-004 wrong password shows the generic error', async () => {
+    > 17 |   expect('Oops!! Invalid credentials', 'error toast text').toBe('Oops!! Wrong password');
+         |                                                            ^
+      18 | });
+      19 |
+      20 | test('RESET-006 / ON-04 a new password works and onboarding opens', async ({}, testInfo) => {
+        at /home/claude/fixture-gen/tests/auth/login.spec.ts:17:60
+
+    Error Context: ../test-results/auth-login-AUTH-004-wrong-password-shows-the-generic-error-chromium/error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: error toast text
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Oops!! Wrong password"
+    Received: "Oops!! Invalid credentials"
+
+      15 |
+      16 | test('AUTH-004 wrong password shows the generic error', async () => {
+    > 17 |   expect('Oops!! Invalid credentials', 'error toast text').toBe('Oops!! Wrong password');
+         |                                                            ^
+      18 | });
+      19 |
+      20 | test('RESET-006 / ON-04 a new password works and onboarding opens', async ({}, testInfo) => {
+        at /home/claude/fixture-gen/tests/auth/login.spec.ts:17:60
+
+    Error Context: ../test-results/auth-login-AUTH-004-wrong-password-shows-the-generic-error-chromium-retry1/error-context.md
+]]>
+</failure>
+</testcase>
+<testcase name="RESET-006 / ON-04 a new password works and onboarding opens" classname="auth/login.spec.ts" time="0.053">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/auth-login-RESET-006-ON-04-0c3fd--works-and-onboarding-opens-chromium/error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="[known bug] AUTH-007 email with a trailing dot is accepted" classname="auth/login.spec.ts" time="0.006">
+<properties>
+<property name="known-bug" value="Expected: &quot;Invalid email&quot; error">
+</property>
+</properties>
+</testcase>
+<testcase name="WEB-09 card payment completes" classname="auth/login.spec.ts">
+<properties>
+<property name="manual" value="Stripe Checkout shows hCaptcha to automated browsers">
+</property>
+<property name="fixme" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="WEB-10 setup throws before the assertion" classname="auth/login.spec.ts" time="0.033">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/auth-login-WEB-10-setup-throws-before-the-assertion-chromium/error-context.md]]
+
+[[ATTACHMENT|test-results/auth-login-WEB-10-setup-throws-before-the-assertion-chromium-retry1/error-context.md]]
+]]>
+</system-out>
+<error message="ENOENT: no such file or directory, open &apos;/does/not/exist.json&apos;" type="Error">
+<![CDATA[  [chromium] › auth/login.spec.ts:34:1 › WEB-10 setup throws before the assertion ──────────────────
+
+    Error: ENOENT: no such file or directory, open '/does/not/exist.json'
+
+      33 |
+      34 | test('WEB-10 setup throws before the assertion', async () => {
+    > 35 |   fs.readFileSync('/does/not/exist.json');
+         |      ^
+      36 | });
+      37 |
+        at /home/claude/fixture-gen/tests/auth/login.spec.ts:35:6
+
+    Error Context: ../test-results/auth-login-WEB-10-setup-throws-before-the-assertion-chromium/error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: ENOENT: no such file or directory, open '/does/not/exist.json'
+
+      33 |
+      34 | test('WEB-10 setup throws before the assertion', async () => {
+    > 35 |   fs.readFileSync('/does/not/exist.json');
+         |      ^
+      36 | });
+      37 |
+        at /home/claude/fixture-gen/tests/auth/login.spec.ts:35:6
+
+    Error Context: ../test-results/auth-login-WEB-10-setup-throws-before-the-assertion-chromium-retry1/error-context.md
+]]>
+</error>
+</testcase>
+</testsuite>
+<testsuite name="auth/login.spec.ts" timestamp="2026-11-17T08:27:51.194Z" hostname="firefox" tests="6" failures="1" skipped="1" time="0.139" errors="1">
+<testcase name="AUTH-001 valid credentials log in and open the dashboard" classname="auth/login.spec.ts" time="0.024">
+</testcase>
+<testcase name="AUTH-004 wrong password shows the generic error" classname="auth/login.spec.ts" time="0.033">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/auth-login-AUTH-004-wrong-password-shows-the-generic-error-firefox/error-context.md]]
+
+[[ATTACHMENT|test-results/auth-login-AUTH-004-wrong-password-shows-the-generic-error-firefox-retry1/error-context.md]]
+]]>
+</system-out>
+<failure message="error toast text" type="expect.toBe">
+<![CDATA[  [firefox] › auth/login.spec.ts:16:1 › AUTH-004 wrong password shows the generic error ────────────
+
+    Error: error toast text
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Oops!! Wrong password"
+    Received: "Oops!! Invalid credentials"
+
+      15 |
+      16 | test('AUTH-004 wrong password shows the generic error', async () => {
+    > 17 |   expect('Oops!! Invalid credentials', 'error toast text').toBe('Oops!! Wrong password');
+         |                                                            ^
+      18 | });
+      19 |
+      20 | test('RESET-006 / ON-04 a new password works and onboarding opens', async ({}, testInfo) => {
+        at /home/claude/fixture-gen/tests/auth/login.spec.ts:17:60
+
+    Error Context: ../test-results/auth-login-AUTH-004-wrong-password-shows-the-generic-error-firefox/error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: error toast text
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Oops!! Wrong password"
+    Received: "Oops!! Invalid credentials"
+
+      15 |
+      16 | test('AUTH-004 wrong password shows the generic error', async () => {
+    > 17 |   expect('Oops!! Invalid credentials', 'error toast text').toBe('Oops!! Wrong password');
+         |                                                            ^
+      18 | });
+      19 |
+      20 | test('RESET-006 / ON-04 a new password works and onboarding opens', async ({}, testInfo) => {
+        at /home/claude/fixture-gen/tests/auth/login.spec.ts:17:60
+
+    Error Context: ../test-results/auth-login-AUTH-004-wrong-password-shows-the-generic-error-firefox-retry1/error-context.md
+]]>
+</failure>
+</testcase>
+<testcase name="RESET-006 / ON-04 a new password works and onboarding opens" classname="auth/login.spec.ts" time="0.047">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/auth-login-RESET-006-ON-04-0c3fd--works-and-onboarding-opens-firefox/error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="[known bug] AUTH-007 email with a trailing dot is accepted" classname="auth/login.spec.ts" time="0.006">
+<properties>
+<property name="known-bug" value="Expected: &quot;Invalid email&quot; error">
+</property>
+</properties>
+</testcase>
+<testcase name="WEB-09 card payment completes" classname="auth/login.spec.ts">
+<properties>
+<property name="manual" value="Stripe Checkout shows hCaptcha to automated browsers">
+</property>
+<property name="fixme" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="WEB-10 setup throws before the assertion" classname="auth/login.spec.ts" time="0.029">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/auth-login-WEB-10-setup-throws-before-the-assertion-firefox/error-context.md]]
+
+[[ATTACHMENT|test-results/auth-login-WEB-10-setup-throws-before-the-assertion-firefox-retry1/error-context.md]]
+]]>
+</system-out>
+<error message="ENOENT: no such file or directory, open &apos;/does/not/exist.json&apos;" type="Error">
+<![CDATA[  [firefox] › auth/login.spec.ts:34:1 › WEB-10 setup throws before the assertion ───────────────────
+
+    Error: ENOENT: no such file or directory, open '/does/not/exist.json'
+
+      33 |
+      34 | test('WEB-10 setup throws before the assertion', async () => {
+    > 35 |   fs.readFileSync('/does/not/exist.json');
+         |      ^
+      36 | });
+      37 |
+        at /home/claude/fixture-gen/tests/auth/login.spec.ts:35:6
+
+    Error Context: ../test-results/auth-login-WEB-10-setup-throws-before-the-assertion-firefox/error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: ENOENT: no such file or directory, open '/does/not/exist.json'
+
+      33 |
+      34 | test('WEB-10 setup throws before the assertion', async () => {
+    > 35 |   fs.readFileSync('/does/not/exist.json');
+         |      ^
+      36 | });
+      37 |
+        at /home/claude/fixture-gen/tests/auth/login.spec.ts:35:6
+
+    Error Context: ../test-results/auth-login-WEB-10-setup-throws-before-the-assertion-firefox-retry1/error-context.md
+]]>
+</error>
+</testcase>
+</testsuite>
+</testsuites>
