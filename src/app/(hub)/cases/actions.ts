@@ -5,6 +5,7 @@ import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
 import { z } from 'zod';
 import { PLATFORMS, testCases, type Platform } from '@/db/schema';
+import { requireUser } from '@/lib/auth/session';
 import { db } from '@/lib/db';
 import { caseInput, findHeaderRow, guessMapping, mapRows, parseCsv, type Mapping } from '@/lib/import/sheet';
 import { readWorkbook } from '@/lib/import/xlsx';
@@ -39,6 +40,7 @@ const fieldErrors = (error: z.ZodError) =>
   Object.fromEntries(error.issues.map((i) => [String(i.path[0]), i.message])) as CaseFormState['errors'];
 
 export async function createCase(_prev: CaseFormState, fd: FormData): Promise<CaseFormState> {
+  await requireUser();
   const parsed = readCaseForm(fd);
   if (!parsed.success) return { errors: fieldErrors(parsed.error) };
   const [existing] = await db.select({ id: testCases.id }).from(testCases).where(eq(testCases.caseKey, parsed.data.caseKey));
@@ -49,6 +51,7 @@ export async function createCase(_prev: CaseFormState, fd: FormData): Promise<Ca
 }
 
 export async function updateCase(caseKey: string, _prev: CaseFormState, fd: FormData): Promise<CaseFormState> {
+  await requireUser();
   fd.set('caseKey', caseKey); // The ID links past results, so it is not editable here.
   const parsed = readCaseForm(fd);
   if (!parsed.success) return { errors: fieldErrors(parsed.error) };
@@ -77,6 +80,7 @@ export interface SheetState {
 const MAX_FILE = 5 * 1024 * 1024;
 
 export async function readSheet(_prev: SheetState, fd: FormData): Promise<SheetState> {
+  await requireUser();
   const file = fd.get('file');
   if (!(file instanceof File) || !file.size) return { error: 'Choose a .xlsx or .csv file first.' };
   if (file.size > MAX_FILE) return { error: 'The file is larger than 5 MB. Export only the test case sheet as CSV.' };
@@ -126,6 +130,7 @@ const importRequest = z.object({
 });
 
 export async function importCases(payload: unknown): Promise<ImportResult> {
+  await requireUser();
   const req = importRequest.safeParse(payload);
   if (!req.success) return { error: 'The import request was not valid. Read the file again and retry.' };
   const { rows, headerRow, mapping, defaultPlatforms, existing } = req.data;

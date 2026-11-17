@@ -121,6 +121,46 @@ export const perfMetrics = pgTable(
   (t) => [index('perf_metrics_run_idx').on(t.runId)],
 );
 
+/* Sign-in: email links and cookie sessions. Only SHA-256 hashes of tokens are stored. */
+
+export const users = pgTable('users', {
+  id: serial('id').primaryKey(),
+  // Stored lower-cased.
+  email: text('email').notNull().unique(),
+  createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  lastSignInAt: timestamp('last_sign_in_at', { withTimezone: true }),
+});
+
+export const loginTokens = pgTable(
+  'login_tokens',
+  {
+    id: serial('id').primaryKey(),
+    email: text('email').notNull(),
+    tokenHash: text('token_hash').notNull().unique(),
+    // Where to go after signing in; always a path on this site.
+    nextPath: text('next_path').notNull().default('/'),
+    expiresAt: timestamp('expires_at', { withTimezone: true }).notNull(),
+    usedAt: timestamp('used_at', { withTimezone: true }),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [index('login_tokens_email_created_idx').on(t.email, t.createdAt)],
+);
+
+export const sessions = pgTable(
+  'sessions',
+  {
+    id: serial('id').primaryKey(),
+    tokenHash: text('token_hash').notNull().unique(),
+    userId: integer('user_id')
+      .notNull()
+      .references(() => users.id, { onDelete: 'cascade' }),
+    expiresAt: timestamp('expires_at', { withTimezone: true }).notNull(),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [index('sessions_user_idx').on(t.userId)],
+);
+
+export type User = typeof users.$inferSelect;
 export type TestCase = typeof testCases.$inferSelect;
 export type Run = typeof runs.$inferSelect;
 export type Result = typeof results.$inferSelect;

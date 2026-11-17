@@ -14,8 +14,13 @@ if (process.env.NODE_ENV !== 'production') globalForDb.sql = client;
 
 export const db = drizzle(client, { schema });
 
-/** Every page read goes through this: results are live, so they are never part of a prerendered shell. */
+/**
+ * Every page read goes through this. Results are live, so they are never part of a prerendered
+ * shell, and only a signed-in user gets them.
+ */
 export async function liveDb() {
   await connection();
+  const { requireUser } = await import('@/lib/auth/session');
+  await requireUser();
   return db;
 }
