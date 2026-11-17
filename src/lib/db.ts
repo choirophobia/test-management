@@ -9,7 +9,7 @@ if (!url) throw new Error('DATABASE_URL is not set. Copy .env.example to .env.lo
 
 // One pool per server process; dev hot reload would otherwise open a new pool on every edit.
 const globalForDb = globalThis as unknown as { sql?: postgres.Sql };
-const client = globalForDb.sql ?? postgres(url, { max: 10 });
+const client = globalForDb.sql ?? postgres(url, { max: 10, prepare: false });
 if (process.env.NODE_ENV !== 'production') globalForDb.sql = client;
 
 export const db = drizzle(client, { schema });
